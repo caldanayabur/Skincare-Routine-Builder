@@ -1,18 +1,96 @@
-#root {
-  max-width: 1280px;
+.App {
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  color: black;
-  background-color: white;
+  padding: 48px 20px 64px;
+  min-height: 100vh;
 }
 
+.App > * {
+  position: relative;
+  z-index: 1;
+}
 
- body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.App::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 248, 250, 0.55);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.App h1,
+.App p {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #c75b7a;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #f0d5df;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.card h2 {
+  text-align: left;
+  color: #b84f6f;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 6px;
+  color: #a23e5b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }

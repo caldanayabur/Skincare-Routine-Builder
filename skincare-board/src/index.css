@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background:
+		linear-gradient(rgba(255, 248, 250, 0.78), rgba(255, 248, 250, 0.78)),
+		url('./assets/background.png') center/cover fixed no-repeat;
+}
+
+#root {
+	min-height: 100vh;
+}
