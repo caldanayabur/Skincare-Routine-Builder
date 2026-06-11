@@ -36,7 +36,7 @@ I generated the background and the images for each card with AI so that it looke
 
 Here's a walkthrough of implemented required features:
 
-<img width="426" height="240" alt="Video_Walkthrough" src="https://github.com/user-attachments/assets/ca045986-2994-44e9-aaee-136fa3dab8fc" />
+<img width="800" height="450" alt="Video_Walkthrough" src="https://github.com/user-attachments/assets/ca045986-2994-44e9-aaee-136fa3dab8fc" />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Clipchamp
