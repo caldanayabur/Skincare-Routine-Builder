@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/47b3d6a2-3f5a-4cd5-b6eb-54b800c4fe4b
-
 # Web Development Project 1 - *Skincare-Routine-Builder*
 
 Submitted by: **Carolina Aldana**
