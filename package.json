@@ -1,0 +1,13 @@
+{
+  "name": "skincare-routine-builder",
+  "private": true,
+  "workspaces": [
+    "skincare-board"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace skincare-board",
+    "build": "npm run build --workspace skincare-board",
+    "lint": "npm run lint --workspace skincare-board",
+    "preview": "npm run preview --workspace skincare-board"
+  }
+}
