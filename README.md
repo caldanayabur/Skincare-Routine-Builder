@@ -39,7 +39,7 @@ Here's a walkthrough of implemented required features:
 https://github.com/user-attachments/assets/b5fe8524-f254-4bfb-9fe4-10083ac2a761
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Clipchamp
+Video created with Clipchamp
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
